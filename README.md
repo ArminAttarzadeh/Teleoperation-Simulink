@@ -13,7 +13,7 @@ This project is a **Simulink** model that simulates a flexible joint teleoperati
 
 ## Controller Design
 The system utilizes a **PD+damping** or **P+damping** control strategy to manage the nonlinear flexible dynamics and ensure stability during variable time delays. These controllers are designed to mitigate oscillations caused by the joint flexibility and delays in communication.
-<img src="./Slides/2.JPG" alt="controller" width="400"/>
+<img src="./Slides/2.JPG" alt="controller" width="800"/>
 
 ## Reference Paper
 This simulation is based on the concepts discussed in the paper:  

@@ -1,6 +1,7 @@
 # Flexible Joint Teleoperation Manipulator Simulation
 
 <img src="./Slides/1.JPG" alt="Flexible Structure" width="800"/>
+
 <img src="./Slides/0.JPG" alt="MasterSlave" width="800"/>
 
 
@@ -12,8 +13,10 @@ This project is a **Simulink** model that simulates a flexible joint teleoperati
 3. **Master-Slave Tracking**: The system aims to maintain accurate tracking between the master and slave sides, ensuring that the slave manipulator follows the master's movements as closely as possible.
 
 ## Controller Design
-The system utilizes a **PD+damping** or **P+damping** control strategy to manage the nonlinear flexible dynamics and ensure stability during variable time delays. These controllers are designed to mitigate oscillations caused by the joint flexibility and delays in communication.
 <img src="./Slides/2.JPG" alt="controller" width="800"/>
+
+The system utilizes a **PD+damping** or **P+damping** control strategy to manage the nonlinear flexible dynamics and ensure stability during variable time delays. These controllers are designed to mitigate oscillations caused by the joint flexibility and delays in communication.
+
 
 ## Reference Paper
 This simulation is based on the concepts discussed in the paper:  

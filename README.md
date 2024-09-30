@@ -1,7 +1,7 @@
 # Flexible Joint Teleoperation Manipulator Simulation
 
-<img src="./Slides/1.JPG" alt="Flexible Structure" width="400"/>
-<img src="./Slides/0.JPG" alt="MasterSlave" width="400"/>
+<img src="./Slides/1.JPG" alt="Flexible Structure" width="800"/>
+<img src="./Slides/0.JPG" alt="MasterSlave" width="800"/>
 
 
 This project is a **Simulink** model that simulates a flexible joint teleoperation manipulator with a bilateral structure. The system involves a master-slave tracking architecture, with a focus on handling key challenges such as **variable time delays**, **nonlinear flexible dynamics**, and ensuring effective master-slave synchronization.
